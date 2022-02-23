@@ -2,18 +2,20 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sendButton {
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  width: 15rem;
+  height: 2rem;
 }
 
-.App-header {
+.message {
+  margin: 5px;
+}
+
+.AppHeader {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -32,6 +34,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
